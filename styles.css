@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Futura Bold';
+    src: url('/api/placeholder/100/100') format('woff2');
+}
+
+h1, h2, h3 {
+    font-family: 'Futura Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+.hero-section {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 4rem 0;
+}
+
+.book-cover {
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+img{
+    width: 200px;
+}
+.book-cover:hover {
+    transform: scale(1.05);
+}
+
+.quote {
+    font-style: italic;
+    border-left: 4px solid #dc3545;
+    padding-left: 1rem;
+}
+
+.buy-form {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
